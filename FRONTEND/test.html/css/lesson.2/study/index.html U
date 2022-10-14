@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My css page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="head_nav_list">
+            <li class="head_nav_list_item home_link">
+                <a href="#" class="head_nav_list_link">Home</a>
+            </li>
+            <li class="head_nav_list_item">
+                <a href="#" class="head_nav_list_link">News</a>
+            </li>
+            <li class="head_nav_list_item">
+                <a href="#" class="head_nav_list_link">Shop</a>
+            </li>
+            <li class="head_nav_list_item">
+                <a href="#" class="head_nav_list_link">About</a>
+            </li>
+            <li class="head_nav_list_item">
+                <a href="#" class="head_nav_list_link">Jobs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>CSS, CSS!</h1>
+    </header>
+
+    <div class="content_main">
+
+        <article class="article_main article_left">
+            <h3>News</h3>
+            <p class="article_main_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <br>
+                Doloribus modi eum ipsa voluptate nobis minus harum perferendis similique distinctio 
+                <br>
+                repudiandae reprehenderit eius ipsam voluptates porro, assumenda aperiam. 
+                <br>
+                Omnis, distinctio exercitationem.
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <br>
+                Doloribus modi eum ipsa voluptate nobis minus harum perferendis similique distinctio 
+                <br>
+                repudiandae reprehenderit eius ipsam voluptates porro, assumenda aperiam. 
+                <br>
+                Omnis, distinctio exercitationem.
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <br>
+                Doloribus modi eum ipsa voluptate nobis minus harum perferendis similique distinctio 
+                <br>
+                repudiandae reprehenderit eius ipsam voluptates porro, assumenda aperiam. 
+                <br>
+                Omnis, distinctio exercitationem.
+            </p>
+            <img src="./img/home_cat.jpg" alt="Home cat meow" width="300px">
+        </article>
+
+        <article class="article_main article_right">
+            <img src="./img/husky.jpg" alt="Husky est kolbaski" width="300px">
+            <h3>Shop</h3>
+            <p class="article_main_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <br>
+                Doloribus modi eum ipsa voluptate nobis minus harum perferendis similique distinctio 
+                <br>
+                repudiandae reprehenderit eius ipsam voluptates porro, assumenda aperiam. 
+                <br>
+                Omnis, distinctio exercitationem.
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <br>
+                Doloribus modi eum ipsa voluptate nobis minus harum perferendis similique distinctio 
+                <br>
+                repudiandae reprehenderit eius ipsam voluptates porro, assumenda aperiam. 
+                <br>
+                Omnis, distinctio exercitationem.
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <br>
+                Doloribus modi eum ipsa voluptate nobis minus harum perferendis similique distinctio 
+                <br>
+                repudiandae reprehenderit eius ipsam voluptates porro, assumenda aperiam. 
+                <br>
+                Omnis, distinctio exercitationem.
+            </p>
+        </article>
+
+        <article class="article_main article_left">
+            <h3>About</h3>
+            <p class="article_main_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <br>
+                Doloribus modi eum ipsa voluptate nobis minus harum perferendis similique distinctio 
+                <br>
+                repudiandae reprehenderit eius ipsam voluptates porro, assumenda aperiam. 
+                <br>
+                Omnis, distinctio exercitationem.
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <br>
+                Doloribus modi eum ipsa voluptate nobis minus harum perferendis similique distinctio 
+                <br>
+                repudiandae reprehenderit eius ipsam voluptates porro, assumenda aperiam. 
+                <br>
+                Omnis, distinctio exercitationem.
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <br>
+                Doloribus modi eum ipsa voluptate nobis minus harum perferendis similique distinctio 
+                <br>
+                repudiandae reprehenderit eius ipsam voluptates porro, assumenda aperiam. 
+                <br>
+                Omnis, distinctio exercitationem.
+            </p>
+            <img src="./img/wild_cat.webp" alt="Wild cat" width="330px">
+        </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <footer>
+        TelRan School - All rights reserved.
+        <br>
+        Berlin 2022.
+    </footer>
+
+</body>
+</html> 

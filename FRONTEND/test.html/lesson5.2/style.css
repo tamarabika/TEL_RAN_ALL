@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding:0;
+    max-width: 100%;
+}
+
+.rectangle {
+    position: absolute;
+    width: 2011px;
+    height: 84px;
+    left: 0px;
+    top: 0px;
+    background: #007765;
+}
+
+.small {
+    position: absolute;
+    left: 0%;
+    right: 75.55%;
+    top: 0%;
+    bottom: 0.09%;
+}
+
+.large {
+    position: absolute;
+    left: 0.02%;
+    right: 0%;
+    top: 0%;
+    bottom: -0.09%;
+}
+
+.logo_head {
+    position: absolute;
+    width: 184px;
+    height: 45px;
+    left: 501px;
+    top: 20px;
+}
+
+.problem {
+    position: absolute;
+    width: 129px;
+    height: 29px;
+    left: 1187px;
+    top: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pipe {
+    position: absolute;
+    width: 7px;
+    height: 29px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pipe1 {
+    left: 1324px;
+    top: 28px;
+}
+
+.pipe2 {
+    left: 1501px;
+    top: 29px;
+}
+
+.coin {
+    position: absolute;
+    width: 154px;
+    height: 29px;
+    left: 1339px;
+    top: 29px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.team {
+    position: absolute;
+    width: 95px;
+    height: 29px;
+    left: 1516px;
+    top: 29px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.subhead {
+    position: absolute;
+    width: 2011px;
+    height: 403px;
+    left: 0px;
+    top: 84px;
+    background: url(./img/subheader.png);
+}
+
+.piper_net {
+    position: absolute;
+    width: 1219px;
+    height: 83px;
+    left: 396px;
+    top: 120px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.the_problem{
+/* The Problem */
+
+position: absolute;
+width: 1107px;
+height: 75px;
+left: 451px;
+top: 535px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+text-align:center;
+
+color: #007765;
+}
+.text{
+    /* Beneath the flashy homepages of your favorite sites lurk Hooli™ and other evil corporations out to hoard and sell your most personal data. What was built to be the ultimate platform for the free sharing of knowledge has turned into a money-hungry monster feasting on our privacy and freedom. But fear not, for Pied Piper has the answer! And it’s simple: An autonomous peer-to-peer network featuring distributed storage powered by universal compression, accelerated scheduling allocation, and end-to-end encryption. Put even simpler — it’s the internet, completely decentralized. */
+
+position: absolute;
+width: 1110px;
+height: 488px;
+left: 451px;
+top: 626px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+
+}
+
+.stars{
+    /* image */
+
+position: absolute;
+width: 2011px;
+height: 483px;
+left: 0px;
+top: 1206px;
+
+background: url(image.png);
+
+}
+.text2{/* image */
+
+    /* We’re in this together! All of our computers and phones join in a network to make the strongest supercomputer the world has ever seen. */
+
+position: absolute;
+width: 893px;
+height: 228px;
+left: 559px;
+top: 1334px;
+
+font-family: 'Roboto';
+font-style: italic;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+    
+
+}
+.PPCbg{
+    /* PPC bg */
+
+position: absolute;
+width: 2011px;
+height: 604px;
+left: 0px;
+top: 1689px;
+
+background: #FFFFFF;
+
+}
+.introducing{
+    /* Introducing PiedPiperCoin */
+
+position: absolute;
+width: 1110px;
+height: 75px;
+left: 451px;
+top: 1737px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+text-align: center;
+
+color: #007765;
+
+
+}
+.PiedPiperCoin{
+    /* Introducing PiedPiperCoin */
+
+position: absolute;
+width: 1110px;
+height: 75px;
+left: 451px;
+top: 1737px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+text-align: center;
+
+color: #007765;
+
+
+}
+.PiedPipers{
+   /* Pied Piper's new internet is built for users, by users. You supply the storage, compute, and networking resources that power our entire decentralized web. */
+
+position: absolute;
+width: 930px;
+height: 110px;
+left: 614px;
+top: 1828px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+
+
+}
+.Now{
+    /* Now there's a way to give credit where credit is due. Compute credit, that is! The more you share your device resources, the more PiedPiperCoin you receive. Whether you're a developer with an app ready for market, or just an Average Joe with a smartphone you'll love all you can do with PiedPiperCoin. */
+
+position: absolute;
+width: 1110px;
+height: 223px;
+left: 451px;
+top: 1978px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+
+
+}
+
+.theTeam{
+    /* bg */
+
+position: absolute;
+width: 2011px;
+height: 845px;
+left: 0px;
+top: 2293px;
+
+background: #EEEEEE;
+
+}
+.rectangle_down{
+   /* Rectangle */
+
+position: absolute;
+width: 2011px;
+height: 176px;
+left: 0px;
+top: 3138px;
+
+background: #333333;
+ 
+}
+.trademarks{
+    /* All other trademarks and copyrights are the property of their respective owners. Use of these names, trademarks and brands does not imply endorsement. */
+
+position: absolute;
+width: 540px;
+height: 64px;
+left: 736px;
+top: 3188px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+

@@ -1,0 +1,1127 @@
+{
+  "id": "108c0c69-1188-48bb-8342-e0e1dbf40fff",
+  "version": "2.0",
+  "name": "Quandoo.de",
+  "url": "https://www.quandoo.de/en/result?destination=berlin",
+  "tests": [{
+    "id": "d62562eb-1ebb-43d6-ba72-498270f0531f",
+    "name": "Кнопка Sig up",
+    "commands": [{
+      "id": "37b64d5d-fd25-4bf8-8905-ee6855912529",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.quandoo.de/en/result?destination=berlin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "faf7c473-af0d-4f7e-a924-092f1ba9901d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bab7f850-e42b-43a5-b108-86dfb3109a5a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Sign up",
+      "targets": [
+        ["linkText=Sign up", "linkText"],
+        ["css=.kA-DcjI > .bd7y3m-2", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign up')]", "xpath:link"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[3]/div[2]/header/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6faa8d53-294e-4150-8776-6017b0fa426f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign up",
+      "targets": [
+        ["linkText=Sign up", "linkText"],
+        ["css=.kA-DcjI > .bd7y3m-2", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign up')]", "xpath:link"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[3]/div[2]/header/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d246ea05-877b-4652-8982-ac4cb255a7a0",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.iTacbz",
+      "targets": [
+        ["css=.iTacbz", "css:finder"],
+        ["xpath=//div[@id='root']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "264513d0-80f2-42ef-961c-9491205371d8",
+    "name": "Карточка ресторана Taleh Thai",
+    "commands": [{
+      "id": "5d17900b-3f72-454c-b346-71d2b3925eba",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.quandoo.de/en/result?destination=berlin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cabd2714-f280-40d8-abc8-6e5dc413af85",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1409x806",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22094097-ab1a-43ae-9d4d-9b2685d0b742",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,142)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "753aa240-cea1-4c47-b8a6-acc719566fbd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,320)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84c79990-619c-49f9-8d19-cf4d22ae9712",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,503)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64cf5906-f233-4849-882a-1420324d6229",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Taleh Thai",
+      "targets": [
+        ["linkText=Taleh Thai", "linkText"],
+        ["css=.sc-AxirZ:nth-child(3) .zt41a1-0", "css:finder"],
+        ["xpath=//a[contains(text(),'Taleh Thai')]", "xpath:link"],
+        ["xpath=//div[@id='tab-merchants']/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/place/taleh-thai-6902')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Taleh Thai')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1614f976-51ed-4104-9035-df62309c123d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68c52cd6-5b88-49ae-b0b5-fc3c632dc654",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fnoZne",
+      "targets": [
+        ["css=.fnoZne", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/section/div/div/div/div[2]/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Taleh Thai')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb1bfb89-9b23-4b82-b9b4-374cfb345514",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.fnoZne",
+      "targets": [
+        ["css=.fnoZne", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/section/div/div/div/div[2]/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Taleh Thai')]", "xpath:innerText"]
+      ],
+      "value": "Taleh Thai"
+    }]
+  }, {
+    "id": "8e689de8-8d04-48f1-b490-26a3186f653c",
+    "name": "Find a table с валидной датой",
+    "commands": [{
+      "id": "015dccf6-f11a-4790-8aac-9c7e9a7afc6e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.quandoo.de/en/result?destination=berlin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc27fabe-0d22-4270-90e6-af1fb493d0e6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abf1aad8-c6ef-4130-935e-b724a3bfe880",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-16hwdlt-1 > .mx6ydz-0:nth-child(1) .mx6ydz-4",
+      "targets": [
+        ["css=.sc-16hwdlt-1 > .mx6ydz-0:nth-child(1) .mx6ydz-4", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa3d7aa9-ec09-4ad3-ad1f-e00e32ac3757",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-16hwdlt-1 > .mx6ydz-0:nth-child(1) .mx6ydz-4",
+      "targets": [
+        ["css=.sc-16hwdlt-1 > .mx6ydz-0:nth-child(1) .mx6ydz-4", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c600224d-9222-46e9-8996-fdeec30704b3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.efamc0-0:nth-child(2)",
+      "targets": [
+        ["css=.efamc0-0:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e866b5a7-fe33-49ac-b33e-c3c89dfdf92d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.efamc0-0:nth-child(2)",
+      "targets": [
+        ["css=.efamc0-0:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29dfb03e-7316-429c-b75a-b140cf8ab335",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.bMaxPJ .mx6ydz-5",
+      "targets": [
+        ["css=.bMaxPJ .mx6ydz-5", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d02d287-ed3f-43ef-805a-44dc40be6d0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DayPicker-Week:nth-child(3) > .DayPicker-Day:nth-child(7)",
+      "targets": [
+        ["css=.DayPicker-Week:nth-child(3) > .DayPicker-Day:nth-child(7)", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/div[2]/div[3]/div[3]/div[7]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fe755e1-821c-4a27-8673-325199325ade",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.bMaxPJ .mx6ydz-4",
+      "targets": [
+        ["css=.bMaxPJ .mx6ydz-4", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/div[3]/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d25138e8-d88a-46af-ba56-ade920d9ccc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1tncgfg-0:nth-child(43) .sc-1tncgfg-1",
+      "targets": [
+        ["css=.sc-1tncgfg-0:nth-child(43) .sc-1tncgfg-1", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/div[3]/div/div[2]/div/div/li[43]/span/span", "xpath:idRelative"],
+        ["xpath=//li[43]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63d305c4-3558-404a-a858-3d69e965feb9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-18d92xl-0",
+      "targets": [
+        ["css=.sc-18d92xl-0", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Apply')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a366209c-32e2-47eb-a874-2900ca0796a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-18d92xl-0",
+      "targets": [
+        ["css=.sc-18d92xl-0", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Apply')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "867c296f-76b4-42a9-b14f-54054ba5131e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=content-wrapper",
+      "targets": [
+        ["id=content-wrapper", "id"],
+        ["css=#content-wrapper", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ad2c99b9-4862-41f8-8380-e9b53ae97579",
+    "name": "Find a table с не валидной датой",
+    "commands": [{
+      "id": "fe88f956-1f76-4e88-8471-e06399ddaf3c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.quandoo.de/en/result?destination=berlin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99050bc5-1534-4b96-9ccd-9af4ace354a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b68938bf-8c5a-42bb-9422-6a70f70d2812",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-16hwdlt-1 > .mx6ydz-0:nth-child(1) .mx6ydz-4",
+      "targets": [
+        ["css=.sc-16hwdlt-1 > .mx6ydz-0:nth-child(1) .mx6ydz-4", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04f00ac5-281f-4ddc-922b-c524993aa402",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-16hwdlt-1 > .mx6ydz-0:nth-child(1) .mx6ydz-4",
+      "targets": [
+        ["css=.sc-16hwdlt-1 > .mx6ydz-0:nth-child(1) .mx6ydz-4", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94525012-0a3c-4099-b395-6bf5f747872b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.efamc0-0:nth-child(2)",
+      "targets": [
+        ["css=.efamc0-0:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dcac99b-f273-4658-819a-d850d3340f7a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.bMaxPJ .mx6ydz-4",
+      "targets": [
+        ["css=.bMaxPJ .mx6ydz-4", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "056e29af-72d2-484a-a577-bd419a7f10ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DayPicker-Week:nth-child(3) > .DayPicker-Day:nth-child(5)",
+      "targets": [
+        ["css=.DayPicker-Week:nth-child(3) > .DayPicker-Day:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/div[2]/div[3]/div[3]/div[5]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02d40aed-656b-4765-b773-50b2d6c77c71",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.bMaxPJ .mx6ydz-4",
+      "targets": [
+        ["css=.bMaxPJ .mx6ydz-4", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/div[3]/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b79269d4-502e-44ed-907c-898cf1174215",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1tncgfg-0:nth-child(43) .sc-1tncgfg-1",
+      "targets": [
+        ["css=.sc-1tncgfg-0:nth-child(43) .sc-1tncgfg-1", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/div/div[3]/div/div[2]/div/div/li[43]/span/span", "xpath:idRelative"],
+        ["xpath=//li[43]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f002f69-3148-4aa0-b3c6-ccb96484e247",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-18d92xl-0",
+      "targets": [
+        ["css=.sc-18d92xl-0", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Apply')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f84674ef-3c5d-4020-bdcd-b8b58bebdc02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-18d92xl-0",
+      "targets": [
+        ["css=.sc-18d92xl-0", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']/div[2]/div/div/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Apply')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bb16a5c-2c1b-4430-9eb2-c5e0a6e40325",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.bHqhgN",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "35fc4f68-e4fc-4d95-a529-6217e138de18",
+    "name": "Дропдаун Relevance",
+    "commands": [{
+      "id": "7d1964b9-4c56-4fde-9d67-4e22f3820a40",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.quandoo.de/en/result?destination=berlin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ba57b1b-73b4-49fe-bd90-a8cd3d1a3043",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b4059f4-2681-4c64-94a0-cf27fa0a0970",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-17n3422-1",
+      "targets": [
+        ["css=.sc-17n3422-1", "css:finder"],
+        ["xpath=//div[@id='tab-merchants']/div/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Relevance')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "203cd485-93b6-4377-8310-62ad1cd1a59a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-17n3422-1",
+      "targets": [
+        ["css=.sc-17n3422-1", "css:finder"],
+        ["xpath=//div[@id='tab-merchants']/div/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Relevance')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf90a795-b170-4316-bdf7-1879445fe463",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.NpmQM",
+      "targets": [
+        ["css=.NpmQM", "css:finder"],
+        ["xpath=//div[@id='tab-merchants']/div/div[2]/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Relevance')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "287e3ac3-1da0-4fcc-9363-4b2ad0503032",
+    "name": "Тестирование Show all в разделе Cuisine",
+    "commands": [{
+      "id": "7b29e3a6-abc8-47e2-bf74-33293968d6dd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.quandoo.de/en/result?destination=berlin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c04ffce-b948-4394-a4f6-0c2b2fcc509a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a0f7d35-a69e-4e66-b7b9-ae81a37307e2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.ulye33-7",
+      "targets": [
+        ["css=.ulye33-7", "css:finder"],
+        ["xpath=//div[@id='desktop-filters-wrapper']/div[2]/div[3]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Show all')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45cc3940-5a92-4cd1-8dce-5697c5eea18b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ulye33-7",
+      "targets": [
+        ["css=.ulye33-7", "css:finder"],
+        ["xpath=//div[@id='desktop-filters-wrapper']/div[2]/div[3]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Show all')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f28a5582-3f3e-4a1f-91c3-5130d9ad7e23",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.ulye33-1:nth-child(2)",
+      "targets": [
+        ["css=.ulye33-1:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='desktop-filters-wrapper']/div[2]/div[2]/div/li[2]", "xpath:idRelative"],
+        ["xpath=//div/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "40fc1da4-7d80-4d72-8311-e3c3b32c6961",
+    "name": "Кнопка Log in",
+    "commands": [{
+      "id": "0e19d9a4-e9d7-4114-8eb1-e77e090fc255",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.quandoo.de/en/result?destination=berlin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d85c5701-86e9-4dcf-87fb-b40ab8265abb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ea038e3-4413-4c88-81f5-2f280e25da9e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.bmhTgA > .bd7y3m-2", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[3]/div[2]/header/div[3]/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e96205c-cfc2-4901-a390-8b6a250b1059",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.bmhTgA > .bd7y3m-2", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[3]/div[2]/header/div[3]/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d174f609-7f50-4bdd-9cc6-1b5710c2ed0b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.iTacbz",
+      "targets": [
+        ["css=.iTacbz", "css:finder"],
+        ["xpath=//div[@id='root']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "99484fb7-b089-4047-ad4b-beeda0d0bf7c",
+    "name": "Кнопка смены языка на странице ",
+    "commands": [{
+      "id": "922536a7-d8a1-47a2-b7ab-6c8e29294a62",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.quandoo.de/en/result?destination=berlin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38a8fd8e-08bb-4bfe-9847-78ce7fc5f441",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2561bb72-69c4-4b47-9465-7d89636b17c9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-1vpjxqi-0 > b",
+      "targets": [
+        ["css=.sc-1vpjxqi-0 > b", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[3]/div[2]/header/div[4]/div/div/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51b8fc1c-b292-4705-ab64-03bad27c1f03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1vpjxqi-0 > b",
+      "targets": [
+        ["css=.sc-1vpjxqi-0 > b", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[3]/div[2]/header/div[4]/div/div/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2ae8b1d-c83c-4d09-a72a-0cd284e16f05",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Deutsch",
+      "targets": [
+        ["linkText=Deutsch", "linkText"],
+        ["css=.d0l49f-2:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Deutsch')])[2]", "xpath:link"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[3]/div[2]/header/div[4]/div/div[3]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/result?destination=berlin&locale=de_DE')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6962b0f4-5572-4a43-8c00-d514821c20aa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Italiano",
+      "targets": [
+        ["linkText=Italiano", "linkText"],
+        ["css=.d0l49f-2:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Italiano')])[2]", "xpath:link"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[3]/div[2]/header/div[4]/div/div[3]/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/it/result?destination=berlin')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "249943bc-9cc5-4826-a61e-f8c1239549b8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=content-wrapper",
+      "targets": [
+        ["id=content-wrapper", "id"],
+        ["css=#content-wrapper", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1742f611-be9f-41b2-bdef-555721af7985",
+    "name": "Кнопка смены языка на странице 2 ",
+    "commands": [{
+      "id": "08fd3f40-9b65-49b6-8f74-80b60c18c75b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.quandoo.de/en/result?destination=berlin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d37334b3-f4ab-4e5c-9ca3-28397d1046d3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1409x806",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bd41d87-a3db-4195-9af9-6c5651498ba9",
+      "comment": "",
+      "command": "click",
+      "target": "id=content-wrapper",
+      "targets": [
+        ["id=content-wrapper", "id"],
+        ["css=#content-wrapper", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bfdfa2c-99be-42ac-8d10-2794e46fc0ef",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=content-wrapper",
+      "targets": [
+        ["id=content-wrapper", "id"],
+        ["css=#content-wrapper", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": "View map\\nFiltered by:\\nBookable online\\nCuisine\\nAfrican\\n(6)\\nAmerican\\n(20)\\nArabic\\n(19)\\nArgentinian\\n(6)\\nAsian\\n(180)\\nAsian Fusion\\n(71)\\nShow all\\nReview score\\n1\\n2\\n3\\n4\\n5\\n6\\nRestaurant Price\\n€\\n€€\\n€€€\\n€€€€\\nBookable online\\nRestaurants in Berlin\\nBook a table:\\nPeople\\nDate\\nTime\\nApply\\nOutdoor seating\\nTop rated\\nNearby\\nExplore the food scene\\nGet a taste of Berlin and find the best places for dining\\nMitte\\nCharlottenburg\\nPrenzlauer Berg\\nKreuzberg\\nFriedrichshain\\n700+\\n results\\nRelevance\\nCavallino Rosso\\nMitte\\nItalian Restaurant •\\n€€€€\\nOutdoor seating\\nTerrace\\n5.6/6\\n220 reviews\\nCavallino Rosso\\nTaleh Thai\\nPrenzlauer Berg\\nThai Restaurant •\\n€€€€\\nOutdoor seating\\nTerrace\\n5.6/6\\n337 reviews\\nTaleh Thai\\nEl Colmado\\nMitte\\nSpanish Restaurant •\\n€€€€\\nOutdoor seating\\nTerrace\\n5.6/6\\n80 reviews\\nEl Colmado\\nVineria del Este\\nFriedrichshain\\nSpanish Restaurant •\\n€€€€\\nOutdoor seating\\nTerrace\\n5.8/6\\n156 reviews\\nVineria del Este\\nLa Buvette WEINBAR\\nPrenzlauer Berg\\nFrench Restaurant •\\n€€€€\\nOutdoor seating\\nTerrace\\n5.7/6\\n167 reviews\\nLa Buvette WEINBAR\\nCom Nam\\nMitte\\nVietnamese Restaurant •\\n€€€€\\n5.5/6\\n91 reviews\\nCom Nam\\nDelizie D'Italia\\nPrenzlauer Berg\\nItalian Restaurant •\\n€€€€\\nOutdoor seating\\nTerrace\\n5.6/6\\n131 reviews\\nDelizie D'Italia\\nThai Aroma\\nPrenzlauer Berg\\nThai Restaurant •\\n€€€€\\nOutdoor seating\\n5.6/6\\n250 reviews\\nThai Aroma\\nFeel Seoul Good\\nPankow\\nAsian Restaurant •\\n€€€€\\n5.5/6\\n97 reviews\\nFeel Seoul Good\\nAlt-Berliner Gasthaus Julchen Hoppe\\nMitte\\nGerman Restaurant •\\n€€€€\\nOutdoor seating\\nTerrace\\n5.4/6\\n227 reviews\\nAlt-Berliner Gasthaus Julchen Hoppe\\nCasalot Restaurant\\nMitte\\nArabic Restaurant •\\n€€€€\\nOutdoor seating\\nTerrace\\n5.5/6\\n146 reviews\\nCasalot Restaurant\\nHa-An\\nPrenzlauer Berg\\nVietnamese Restaurant •\\n€€€€\\nOutdoor seating\\nTerrace\\n5.5/6\\n353 reviews\\nHa-An\\nMogg\\nMitte\\nAmerican Restaurant •\\n€€€€\\n5.5/6\\n315 reviews\\nMogg\\nFeedBack\\nKreuzberg\\nChinese Restaurant •\\n€€€€\\nOutdoor seating\\n5.5/6\\n252 reviews\\nFeedBack\\nMitho Cha!\\nPrenzlauer Berg\\nAsian Restaurant •\\n€€€€\\nOutdoor seating\\nTerrace\\n5.5/6\\n118 reviews\\nMitho Cha!\\nVolver\\nMitte\\nSpanish Restaurant •\\n€€€€\\n5.5/6\\n541 reviews\\nVolver\\nSOY Restaurant\\nMitte\\nVietnamese Restaurant •\\n€€€€\\nOutdoor seating\\n5.4/6\\n205 reviews\\nSOY Restaurant\\nOsteria Fiorello\\nPrenzlauer Berg\\nItalian Restaurant •\\n€€€€\\nOutdoor seating\\nTerrace\\n5.6/6\\n69 reviews\\nOsteria Fiorello\\nkopps Restaurant\\nMitte\\nVegan Option •\\n€€€€\\nOutdoor seating\\n5.4/6\\n885 reviews\\nkopps Restaurant\\nA Cabana\\nPrenzlauer Berg\\nPortuguese Restaurant •\\n€€€€\\nOutdoor seating\\nTerrace\\n5.5/6\\n90 reviews\\nA Cabana\\n1\\n2\\n3\\n4\\n5\\n6\\n...\\n36"
+    }, {
+      "id": "1ecabab2-6f7e-4442-92ca-f7f04e95d583",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-1vpjxqi-1 > svg",
+      "targets": [
+        ["css=.sc-1vpjxqi-1 > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "daaa22c2-37c1-47ef-b01e-ab719fb505a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1vpjxqi-0 > b",
+      "targets": [
+        ["css=.sc-1vpjxqi-0 > b", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[3]/div[2]/header/div[4]/div/div/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f34ca64-dead-42c7-b577-e2e8ed10d12a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Italiano",
+      "targets": [
+        ["linkText=Italiano", "linkText"],
+        ["css=.d0l49f-2:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Italiano')])[2]", "xpath:link"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[3]/div[2]/header/div[4]/div/div[3]/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/it/result?destination=berlin')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c7d8b3a-c29a-47ce-9528-08a0c72c2680",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-1vpjxqi-0 > b",
+      "targets": [],
+      "value": "IT"
+    }]
+  }, {
+    "id": "ce159cff-5cda-43d7-9414-86c4f254e09e",
+    "name": "Popular area Show All",
+    "commands": [{
+      "id": "f359fd55-a04b-4eb1-8f07-2fd962e12e28",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.quandoo.de/en/result?destination=berlin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "802d6976-0539-4375-8b6f-2b02fdff9915",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1409x806",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c4ecd16-baa3-4842-b138-3401e28e95f7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3416)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e72b0e2-0d90-4e96-97cf-4f8b7d971786",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4414)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5e4ebc9-4ce6-4269-a967-3f710cb9e748",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sc-1xefkn0-1:nth-child(4) .egt0yc-4:nth-child(7) > .sc-1pa6nry-0",
+      "targets": [
+        ["css=.sc-1xefkn0-1:nth-child(4) .egt0yc-4:nth-child(7) > .sc-1pa6nry-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div/ul/li[7]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/ul/li[7]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Wilmersdorf')]", "xpath:innerText"]
+      ],
+      "value": "Wilmersdorf"
+    }, {
+      "id": "b802f9ae-73cc-4494-96ff-3729c7504555",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-1xa3axr-0",
+      "targets": [
+        ["css=.sc-1xa3axr-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Show all')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f6edf0b-57fd-49a6-b926-03775785022b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1xa3axr-0",
+      "targets": [
+        ["css=.sc-1xa3axr-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Show all')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e5489ed-3a66-4221-a013-76a918773000",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sc-1xefkn0-1:nth-child(4) .egt0yc-4:nth-child(7) > .sc-1pa6nry-0",
+      "targets": [
+        ["css=.sc-1xefkn0-1:nth-child(4) .egt0yc-4:nth-child(7) > .sc-1pa6nry-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div/ul/li[7]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/ul/li[7]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Wilmersdorf')]", "xpath:innerText"]
+      ],
+      "value": "Wilmersdorf"
+    }]
+  }, {
+    "id": "6bbdd12d-a34c-447c-85f5-a9f09b9b9c35",
+    "name": "Popular area Show less",
+    "commands": [{
+      "id": "f0c824b9-ffd2-4b63-8422-fdda2d5c5374",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.quandoo.de/en/result?destination=berlin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "936c62c6-78f8-47d4-91e1-dc8c1b971d99",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1409x806",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9717604-15e2-4d79-bf71-06b0105e2496",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,222)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0792f90e-afe9-42ad-91ed-dc0178600cbf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1412)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e46a332b-b371-4c00-abb5-83931d60a480",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2322)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "486cb6bd-1145-4645-a723-1c60f2529e9e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3397)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ec5f06a-9204-48f2-af76-02eff63ca46c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sc-1xefkn0-1:nth-child(4) .egt0yc-4:nth-child(3) > .sc-1pa6nry-0",
+      "targets": [
+        ["css=.sc-1xefkn0-1:nth-child(4) .egt0yc-4:nth-child(3) > .sc-1pa6nry-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div/ul/li[3]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/ul/li[3]/span", "xpath:position"]
+      ],
+      "value": "Prenzlauer Berg"
+    }, {
+      "id": "8381302e-3582-4d73-8357-4354bd40f961",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-1xa3axr-0",
+      "targets": [
+        ["css=.sc-1xa3axr-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Show all')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffc24faf-bd99-4e90-b789-9ffc7c295038",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1xa3axr-0",
+      "targets": [
+        ["css=.sc-1xa3axr-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Show all')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11df4f6f-400b-43ba-8694-6ff7354127f6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.egt0yc-4:nth-child(11) > .sc-1pa6nry-0",
+      "targets": [
+        ["css=.egt0yc-4:nth-child(11) > .sc-1pa6nry-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div/ul/li[11]/span", "xpath:idRelative"],
+        ["xpath=//ul/li[11]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Steglitz')]", "xpath:innerText"]
+      ],
+      "value": "Steglitz"
+    }, {
+      "id": "882ea823-7da5-4228-ab6e-2f664a9f79ec",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-1xa3axr-0",
+      "targets": [
+        ["css=.sc-1xa3axr-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Show less')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9c827e9-09bc-411a-b616-3c16f1db666d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1xa3axr-0",
+      "targets": [
+        ["css=.sc-1xa3axr-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Show less')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c384678-876b-4734-b2c0-c8bfb9356491",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sc-1xefkn0-1:nth-child(4) .egt0yc-4:nth-child(5) > .sc-1pa6nry-0",
+      "targets": [
+        ["css=.sc-1xefkn0-1:nth-child(4) .egt0yc-4:nth-child(5) > .sc-1pa6nry-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div/ul/li[5]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/ul/li[5]/span", "xpath:position"]
+      ],
+      "value": "Friedrichshain"
+    }]
+  }, {
+    "id": "7f54e9e5-bb70-4cfd-b1af-28e10d7ede86",
+    "name": "ShAll",
+    "commands": [{
+      "id": "5e2f1927-be7b-4fca-8306-bc22c49b9a2d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.quandoo.de/en/result?destination=berlin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b752405-ca0b-4728-81ff-6ee8b1e06673",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1409x806",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7e84262-1f37-4927-beba-10430dbad5e9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3413)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "210245c7-3f7e-4c04-9130-916500c31bc2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4414)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba859d37-6feb-4300-a13e-783756605d00",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//button[contains(.,'Show all')]",
+      "targets": [
+        ["css=.sc-1xa3axr-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Show all')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e01a8eb-77e0-48e7-81e1-00212df978bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1xa3axr-0",
+      "targets": [
+        ["css=.sc-1xa3axr-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Show all')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "063da1fa-41e4-46a6-8f6b-bcf107584e71",
+    "name": "shLess",
+    "commands": [{
+      "id": "64736781-16c5-4d84-bc37-edad213276f0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.quandoo.de/en/result?destination=berlin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6305d2f8-c8e4-4387-891a-4095219f9b4d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1409x806",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0591d7b1-6aa3-4591-b020-ad936b6f0bad",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,208)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d3f759b-c452-48bb-84f5-1667710b8fe5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3404)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9250885c-b858-42cc-b4da-a193199a9b04",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-1xefkn0-1:nth-child(4) .egt0yc-4:nth-child(3) .sc-1pa6nry-1",
+      "targets": [
+        ["css=.sc-1xefkn0-1:nth-child(4) .egt0yc-4:nth-child(3) .sc-1pa6nry-1", "css:finder"],
+        ["xpath=//a[contains(text(),'Prenzlauer Berg')]", "xpath:link"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div/ul/li[3]/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/berlin-prenzlauer-berg')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/ul/li[3]/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40c474cb-dc35-4fcb-9eee-593329347aa3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-1xa3axr-0",
+      "targets": [
+        ["css=.sc-1xa3axr-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Show all')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8385edcf-9aa9-4ecf-b88d-0553f5b9c800",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1xa3axr-0",
+      "targets": [
+        ["css=.sc-1xa3axr-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Show all')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94aa23df-d20a-4cd2-9589-434f608a8c88",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-1xa3axr-0",
+      "targets": [
+        ["css=.sc-1xa3axr-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Show less')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d7cd3f3-64dd-492f-b4cf-9b44abb98061",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1xa3axr-0",
+      "targets": [
+        ["css=.sc-1xa3axr-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Show less')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01f0a741-7771-4c97-b8d4-a9c23a9932d3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sc-1xa3axr-0",
+      "targets": [
+        ["css=.sc-1xa3axr-0", "css:finder"],
+        ["xpath=//div[@id='root']/section/div[3]/div/div[6]/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Show all')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8ddb8328-557b-4f9a-bfcb-ae5683c41b4e",
+    "name": "Quandoo_Tests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["264513d0-80f2-42ef-961c-9491205371d8", "d62562eb-1ebb-43d6-ba72-498270f0531f", "35fc4f68-e4fc-4d95-a529-6217e138de18", "287e3ac3-1da0-4fcc-9363-4b2ad0503032", "40fc1da4-7d80-4d72-8311-e3c3b32c6961", "99484fb7-b089-4047-ad4b-beeda0d0bf7c", "1742f611-be9f-41b2-bdef-555721af7985", "ce159cff-5cda-43d7-9414-86c4f254e09e", "6bbdd12d-a34c-447c-85f5-a9f09b9b9c35"]
+  }],
+  "urls": ["https://www.quandoo.de/", "https://www.quandoo.de/en/result?destination=berlin"],
+  "plugins": []
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #023047;
+    color: #FFFF;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.head_nav_list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.home_link {
+    background-color: #fb8500;
+}
+
+.head_nav_list_item {
+    float: left;
+}
+
+.head_nav_list_link {
+    text-decoration: none;
+    color: #FFFF;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.head_nav_list_link:hover {
+    background-color: #212529;
+}
+
+.content_main {
+    min-height: 41em;
+}
+
+article {
+    margin: 30px 100px 30px 100px;
+    padding: 15px;
+    border: solid #fb8500 2px;
+    border-radius: 10px;
+    background-color: #8ecae6;
+    column-count: 2;
+}
+
+.article_right {
+    text-align: right;
+}
+
+.article_right>img{
+    margin-right: 90%;
+}
+
+.article_left>img {
+    margin-left: 60%;
+} 
+   
+footer {
+    background-color: #023047;
+    color: #FFFF;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
