@@ -1,0 +1,7 @@
+HOMEWORK 13/12/2022
+SELECT
+Orders.OrderID, Customers.CustomerName, Customers.Country,
+Shippers.ShipperName
+FROM Orders
+JOIN Shippers ON Orders.ShipperID=Shippers.ShipperID
+JOIN Customers ON Orders.CustomerID=Customers.CustomerID
